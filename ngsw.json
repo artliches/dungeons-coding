@@ -1,0 +1,99 @@
+{
+  "configVersion": 1,
+  "timestamp": 1737667814213,
+  "index": "/dungeons-coding/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/dungeons-coding/favicon.ico",
+        "/dungeons-coding/index.html",
+        "/dungeons-coding/main-YVHUJLLZ.js",
+        "/dungeons-coding/manifest.webmanifest",
+        "/dungeons-coding/polyfills-FFHMD2TL.js",
+        "/dungeons-coding/styles-BUQSASM6.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/dungeons-coding/assets/fonts/RobotoMono.ttf",
+        "/dungeons-coding/assets/fonts/RubikGlitch-Regular.ttf",
+        "/dungeons-coding/assets/images/farewell.png",
+        "/dungeons-coding/assets/images/new_hire.png",
+        "/dungeons-coding/assets/images/pvnkspawner.png",
+        "/dungeons-coding/assets/images/pvnkspawner_2.png",
+        "/dungeons-coding/assets/images/scoundrel.png",
+        "/dungeons-coding/assets/images/the_molt.png",
+        "/dungeons-coding/assets/images/vast_grimm.png",
+        "/dungeons-coding/assets/images/whatwretchapproaches.png",
+        "/dungeons-coding/assets/images/whogoesthere.png",
+        "/dungeons-coding/icons/android-chrome-192x192.png",
+        "/dungeons-coding/icons/android-chrome-512x512.png",
+        "/dungeons-coding/icons/apple-touch-icon.png",
+        "/dungeons-coding/icons/favicon-16x16.png",
+        "/dungeons-coding/icons/favicon-32x32.png",
+        "/dungeons-coding/media/RobotoMono-W4DSDWKB.ttf",
+        "/dungeons-coding/media/RubikGlitch-Regular-OMNIQNHL.ttf"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/dungeons-coding/assets/fonts/RobotoMono.ttf": "db68e7694003b4a0f58c675b4131a8226a566f5c",
+    "/dungeons-coding/assets/fonts/RubikGlitch-Regular.ttf": "62017fd6822d52043255bff0ea7232ebefddc049",
+    "/dungeons-coding/assets/images/farewell.png": "d38b83db5f5a7286b5287280a21e9077e5a3f4f1",
+    "/dungeons-coding/assets/images/new_hire.png": "9581cdfcb0dc6bb1cc17b343d0158eef087d4a9d",
+    "/dungeons-coding/assets/images/pvnkspawner.png": "75bbe028386038436577cba847b62a8cd0c67d7e",
+    "/dungeons-coding/assets/images/pvnkspawner_2.png": "d602f1d7abf252fd3de776a19a6fd69eda3fe457",
+    "/dungeons-coding/assets/images/scoundrel.png": "795bd75bb756391746f6d099da30381871379acb",
+    "/dungeons-coding/assets/images/the_molt.png": "4cde911c66454d758fcf54e1864d18fe5e7fa3a6",
+    "/dungeons-coding/assets/images/vast_grimm.png": "f8de590bd39a804f59151fdbe952fe69bdc34432",
+    "/dungeons-coding/assets/images/whatwretchapproaches.png": "fc06c12d946a6582c4a65630456b76294247954b",
+    "/dungeons-coding/assets/images/whogoesthere.png": "110a73d78847a30568c6831cfc8a3cde67b72e13",
+    "/dungeons-coding/favicon.ico": "1b9e41bd250980fc1f878bd0049b869370cdbb17",
+    "/dungeons-coding/icons/android-chrome-192x192.png": "1e43fc3ada370b7404651682e1459efa57977792",
+    "/dungeons-coding/icons/android-chrome-512x512.png": "4df901d84d00bec7d3017b0c7f336c54e8364488",
+    "/dungeons-coding/icons/apple-touch-icon.png": "6d0343aa61a20d29a26093cf0ca91f3d0fb23e49",
+    "/dungeons-coding/icons/favicon-16x16.png": "d214cbe48962422849730487c0063090f7a1f666",
+    "/dungeons-coding/icons/favicon-32x32.png": "fcdee174188429617ca569180f3dfc568b3583b0",
+    "/dungeons-coding/index.html": "8bac497a6394e854a4087f6d98b4db5e65ebe5c0",
+    "/dungeons-coding/main-YVHUJLLZ.js": "488004ecdf94ba8e9ea6240d9a983913744cb364",
+    "/dungeons-coding/manifest.webmanifest": "d5d55c328881186a3cd79a1f7f31cde50cec3439",
+    "/dungeons-coding/media/RobotoMono-W4DSDWKB.ttf": "db68e7694003b4a0f58c675b4131a8226a566f5c",
+    "/dungeons-coding/media/RubikGlitch-Regular-OMNIQNHL.ttf": "62017fd6822d52043255bff0ea7232ebefddc049",
+    "/dungeons-coding/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
+    "/dungeons-coding/styles-BUQSASM6.css": "6ebdb502a10c214a4bf768f1eeeb05cec3f17e17"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
