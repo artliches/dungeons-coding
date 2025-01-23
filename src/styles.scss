@@ -1,1 +1,57 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "RubikGlitch";
+    src: local('RubikGlitch'), url(../public/assets/fonts/RubikGlitch-Regular.ttf) format('truetype');
+    font-face: swap;
+}
+
+@font-face {
+    font-family: "RobotoMono";
+    src: local('RobotoMono'), url(../public/assets/fonts/RobotoMono.ttf) format('truetype');
+}
+
+:root {
+    --chromatic-black: rgba(0,0,0,.935);
+    --off-white: rgb(245, 245, 245);
+    --cyan: cyan;
+    --magenta: magenta;
+}
+
+html, body {
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+body {
+    background-color: var(--chromatic-black);
+    color: var(--off-white);
+    font-family: 'RobotoMono';
+    font-size: 1rem;
+}
+
+.marquee {
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: 8px;
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        gap: 8px;
+        flex-shrink: 0;
+        justify-content: space-between;
+        align-items: center;
+        min-width: 100%;
+        animation: scrolling-text 60s linear infinite;
+    }
+}
+
+@keyframes scrolling-text {
+    to {
+        transform: translateX(calc(-100% - 8px));
+    }
+}
