@@ -4,6 +4,51 @@
     gap: $gap;
 }
 
+@keyframes rolling-text-1 {
+    0% {
+        transform: translate(10px, 10px);
+    }
+    25% {
+        transform: translate(-10px, -10px);
+    }
+    50% {
+        transform: translate(-10px, 10px);
+    }
+    75% {
+        transform: translate(10px, -10px);
+    }
+}
+
+@keyframes rolling-text-2 {
+    0% {
+        transform: translate(-10px, -10px);
+    }
+    25% {
+        transform: translate(10px, 10px);
+    }
+    50% {
+        transform: translate(10px, -10px);
+    }
+    75% {
+        transform: translate(-10px, 10px);
+    }
+}
+
+@keyframes shaking-text {
+    0% {
+        transform: translateX(0px);
+    }
+    25% {
+        transform: translateX(10px);
+    }
+    50% {
+        transform: translateX(0px);
+    }
+    75% {
+        transform: translateX(-10px);
+    }
+}
+
 header {
     user-select: none;
     margin: 0 1rem;
@@ -14,6 +59,99 @@ header {
         font-weight: bold;
         font-family: 'RobotoMono';
         margin: 0;
+        .dungeons-text {
+            width: max-content;
+            position: relative;
+            &:hover {
+                animation: shaking-text 0.1s infinite;
+                &:before {
+                    content: attr(data-before);
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;
+                    color: var(--cyan);
+                    opacity: 0.5;
+                    transform: translate(10px, 10px);
+                    animation: rolling-text-1 0.5s infinite;
+                }
+                &:after {
+                    content: attr(data-before);
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;
+                    transform: translate(-10px, -10px);
+                    color: var(--magenta);
+                    opacity: 0.5;
+                    animation: rolling-text-2 0.5s infinite;
+                }
+            }
+        }
+        .ampersand {
+            width: max-content;
+            position: relative;
+            &:hover {
+                animation: shaking-text 0.1s infinite;
+                &:before {
+                    content: attr(data-before);
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;
+                    color: var(--cyan);
+                    opacity: 0.5;
+                    transform: translate(10px, 10px);
+                    animation: rolling-text-1 0.5s infinite;
+                }
+                &:after {
+                    content: attr(data-before);
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;
+                    transform: translate(-10px, -10px);
+                    color: var(--magenta);
+                    opacity: 0.5;
+                    animation: rolling-text-2 0.5s infinite;
+                }
+            }
+        }
+        .coding-text {
+            width: max-content;
+            position: relative;
+            &:hover {
+                animation: shaking-text 0.1s infinite;
+                &:before {
+                    content: attr(data-before);
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;
+                    color: var(--cyan);
+                    opacity: 0.5;
+                    transform: translate(10px, 10px);
+                    animation: rolling-text-1 0.5s infinite;
+                }
+                &:after {
+                    content: attr(data-before);
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;
+                    transform: translate(-10px, -10px);
+                    color: var(--magenta);
+                    opacity: 0.5;
+                    animation: rolling-text-2 0.5s infinite;
+                }
+            }
+        }
         div {
             letter-spacing: 0.5rem;
             font-size: 3.1rem;
@@ -42,8 +180,6 @@ header {
         }
     }
 }
-
-
 
 .portfolio-layout {
     @include flex-column(0rem);
